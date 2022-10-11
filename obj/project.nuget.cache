@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hV/VedHsxpYMMnn2REiZuvuUWHe0a27OJ0KkFNxAK0GCSwLOyccVPdxwCt7KMGhPK/kaFSDqSM41mPOt63MCEw==",
+  "success": true,
+  "projectFilePath": "/Users/gright/dotnet/BidOne/CodeTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/gright/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/gright/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/gright/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.29/microsoft.netcore.app.host.osx-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}
