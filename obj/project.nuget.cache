@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+LZSVF3426ocEhTAtdcX3KKYQhOEQfrGxLjuKBtwdMu2gag0lND222E+hSEgDS4ckxTrRlAOTncAFmQgA0kOqg==",
+  "dgSpecHash": "z9Qev97g5YLd/feowFE5Zr79LXglQVYyIB4FjRO6/8OxZLJd0lxQ0U8wEsBQoFypYxr2ByOiGtqYO1fHix574Q==",
   "success": true,
-  "projectFilePath": "/Users/gright/work/BidOne/Test.csproj",
+  "projectFilePath": "/Users/gright/dotnet/BidOne/Test.csproj",
   "expectedPackageFiles": [
     "/Users/gright/.nuget/packages/microsoft.aspnetcore.spaproxy/6.0.9/microsoft.aspnetcore.spaproxy.6.0.9.nupkg.sha512"
   ],

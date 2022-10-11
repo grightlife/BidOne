@@ -19,7 +19,6 @@
 x64/
 x86/
 build/
-Upload/
 bld/
 bin/
 Bin/
@@ -28,6 +27,7 @@ Obj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
+Upload/*
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

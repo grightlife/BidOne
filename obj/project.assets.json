@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gright/work/BidOne/Test.csproj",
+      "projectUniqueName": "/Users/gright/dotnet/BidOne/Test.csproj",
       "projectName": "Test",
-      "projectPath": "/Users/gright/work/BidOne/Test.csproj",
+      "projectPath": "/Users/gright/dotnet/BidOne/Test.csproj",
       "packagesPath": "/Users/gright/.nuget/packages/",
-      "outputPath": "/Users/gright/work/BidOne/obj/",
+      "outputPath": "/Users/gright/dotnet/BidOne/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gright/.nuget/NuGet/NuGet.Config"
