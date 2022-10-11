@@ -1,9 +1,11 @@
-﻿using System;
-namespace CodeTest.Models
+using System;
+namespace Test.Models
 {
     public class People
     {
-        public string FirstName;
-        public string LastName;
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
     }
 }
+
+

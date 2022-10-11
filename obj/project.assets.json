@@ -1,11 +1,45 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net6.0": {
+      "Microsoft.AspNetCore.SpaProxy/6.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.SpaProxy.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.AspNetCore.SpaProxy/6.0.9": {
+      "sha512": "inP3YhK0cW9DxKJRA0bvaUxNDBtYaLFXKHpjm2S1Xs+PUUlH+Ao1MpirkJP7HEfYZU0Yf7l2X9NKCXpWlNxCGg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/Microsoft.AspNetCore.SpaProxy.targets",
+        "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll",
+        "microsoft.aspnetcore.spaproxy.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net6.0": [
+      "Microsoft.AspNetCore.SpaProxy >= 6.0.9"
+    ]
   },
   "packageFolders": {
     "/Users/gright/.nuget/packages/": {}
@@ -13,24 +47,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gright/dotnet/BidOne/CodeTest.csproj",
-      "projectName": "CodeTest",
-      "projectPath": "/Users/gright/dotnet/BidOne/CodeTest.csproj",
+      "projectUniqueName": "/Users/gright/work/BidOne/Test.csproj",
+      "projectName": "Test",
+      "projectPath": "/Users/gright/work/BidOne/Test.csproj",
       "packagesPath": "/Users/gright/.nuget/packages/",
-      "outputPath": "/Users/gright/dotnet/BidOne/obj/",
+      "outputPath": "/Users/gright/work/BidOne/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gright/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +75,14 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.SpaProxy": {
+            "target": "Package",
+            "version": "[6.0.9, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -54,20 +94,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[3.1.29, 3.1.29]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

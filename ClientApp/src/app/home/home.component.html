@@ -1,0 +1,15 @@
+<div>
+  <form class="submit-form" [formGroup]="formGroup" (submit)="onSubmit()" >
+    <img class="mb-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFSODV4AAU4JQ/company-logo_200_200/0/1654637035886?e=1673481600&v=beta&t=DgFwb4kJBtpY17BVjlHaPz2NhpcybFvF-HN5ypSSJt0" />
+    <h1 class="h3 mb-3 fw-normal">Create a User</h1>
+    <div class="form-floating">
+      <input  formControlName="firstName" class="form-control" id="firstName" placeholder="First Name">
+      <label for="firstName">First Name</label>
+    </div>
+    <div class="form-floating">
+      <input formControlName="lastName" class="form-control" id="lastName" placeholder="Last Name">
+      <label for="lastName">Last Name</label>
+    </div>
+    <button [disabled]="formGroup.invalid" class="w-100 btn btn-lg btn-primary" type="submit">Create</button>
+  </form>
+</div>
